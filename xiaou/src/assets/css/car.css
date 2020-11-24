@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+.header {
+  height         : 0.88rem;
+  display        : flex;
+  justify-content: space-between;
+  background     : #f26b11;
+  align-items    : center;
+  padding        : 0.4rem 0.23rem 0;
+}
+
+.header em {
+  width          : 0.16rem;
+  height         : 0.28rem;
+  display        : block;
+  background     : url(../../assets/images/arrowLeft2.jpg);
+  background-size: 0.16rem 0.28rem;
+}
+
+.header h3 {
+  font-size: 0.34rem;
+  color    : white;
+}
+
+.header .memu .one {
+  background: white;
+}
+
+.mainc {
+  overflow     : hidden;
+  margin-top   : 0.25rem;
+  margin-bottom: 2.35rem;
+}
+
+.mainc li {
+  width  : 113.2%;
+  display: flex;
+}
+
+.mainc li .active {
+  width          : 7.5rem;
+  display        : flex;
+  justify-content: space-between;
+  height         : 1.72rem;
+  margin-top     : 0.25rem;
+}
+
+.mainc li .active input[type=checkbox] {
+  appearance        : none;
+  -moz-appearance   : none;
+  -webkit-appearance: none;
+  cursor            : pointer;
+  margin            : .69rem .44rem 0 .24rem;
+  display           : block;
+  float             : left;
+  width             : .34rem;
+  height            : .34rem;
+  border            : 0.02rem solid #666;
+  border-radius     : 50%;
+}
+
+.mainc li .active input[type=checkbox]:checked {
+  border-color   : #b32e1f;
+  background     : url(../images/selectCart.jpg) no-repeat center;
+  background-size: 0.17rem 0.13rem;
+}
+
+.mainc li .active img {
+  width       : 1rem;
+  height      : auto;
+  margin-top  : 0.4rem;
+  margin-right: 0.8rem;
+}
+
+.mainc li .active .text .shop {
+  font : 0.26rem/0.55rem "微软雅黑";
+  color: #333333;
+}
+
+.main li .active .text .gui {
+  font : 0.23rem/0.5rem "微软雅黑";
+  color: #666666;
+}
+
+.mainc li .active .text .gui span {
+  font: 0.24rem/0.5rem arial;
+}
+
+.mainc li .active .text .price {
+  font : 0.32rem/0.5rem arial;
+  color: #e5383c;
+}
+
+.mainc li .active .number {
+  width          : 2.1rem;
+  height         : 0.58rem;
+  border         : 1px solid #333;
+  border-radius  : 0.03rem;
+  display        : flex;
+  justify-content: space-between;
+  margin-right   : 0.22rem;
+  margin-top     : 0.82rem;
+}
+
+.mainc li .active .number div {
+  width       : 0.62rem;
+  border-right: 1px solid #333;
+  text-align  : center;
+  line-height : 0.58rem;
+}
+
+.mainc li .active .number input {
+  width     : 0.78rem;
+  height    : 0.58rem;
+  text-align: center;
+}
+
+.mainc li .active .number div:nth-child(3) {
+  border-left : 1px solid #333333;
+  border-right: none;
+}
+
+.mainc li .delete {
+  width     : 0.98rem;
+  height    : 1.72rem;
+  font      : 0.24rem/1.72rem "微软雅黑";
+  background: #e43a3d;
+  color     : white;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.mainc .two {
+  transform: translate(-0.98rem);
+}
+
+.mainc .three .active em {
+  display   : inline-block;
+  width     : 0.4rem;
+  height    : 0.4rem;
+  background: url(../images/circle_06.jpg) no-repeat;
+}
+
+.button {
+  margin-bottom  : 1.2rem;
+  width          : 100%;
+  height         : 1.44rem;
+  display        : flex;
+  justify-content: space-between;
+  border-top     : 1px solid #e5e5e5;
+  border-bottom  : 1px solid #e5e5e5;
+}
+
+
+
+.button .yu p {
+  display    : inline-block;
+  font       : 0.24rem/1rem "微软雅黑";
+  color      : #666666;
+}
+
+
+
+.button .yu p input[type=checkbox] {
+  appearance        : none;
+  -moz-appearance   : none;
+  -webkit-appearance: none;
+  cursor            : pointer;
+  margin            : .69rem .44rem 0 .24rem;
+  display           : block;
+  float             : left;
+  width             : .34rem;
+  height            : .34rem;
+  border            : 0.02rem solid #666;
+  border-radius     : 50%;
+}
+
+.button .yu p input[type=checkbox]:checked {
+  border-color   : #b32e1f;
+  background     : url(../images/selectCart.jpg) no-repeat center;
+  background-size: 0.17rem 0.13rem;
+}
+
+.button .qi {
+  text-align: right;
+  margin-top: 0.24rem;
+}
+
+.button .qi p {
+  font : 0.3rem/0.46rem "微软雅黑";
+  color: #323232;
+}
+
+.button .qi p span {
+  color: #e43a3b;
+}
+
+.button .qi .mu {
+  font : 0.2rem/0.36rem "微软雅黑";
+  color: #a4a4a4;
+}
+
+.button .pig a {
+  display   : inline-block;
+  width     : 2.47rem;
+  height    : 1.44rem;
+  background: #f26b11;
+  font      : 0.3rem/1.44rem "微软雅黑";
+  color     : white;
+  text-align: center;
+}

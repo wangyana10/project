@@ -1,0 +1,240 @@
+@charset "utf-8";
+@import "public.css";
+.header {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f26b11;
+  padding: 0.4rem 0.23rem 0px;
+}
+.header em {
+  display: block;
+  height: 0.29rem;
+  width: 0.17rem;
+  background: url(../../assets/images/arrowLeft2.jpg) no-repeat;
+  background-size: 0.17rem 0.29rem;
+}
+.header h3 {
+  font: 0.35rem/0.29rem "微软雅黑";
+  color: white;
+}
+.header .menu span {
+  display: inline-block;
+  width: 0.11rem;
+  height:0.11rem ;
+  border-radius: 50%;
+  background: white;
+}
+.maino {
+  background: #f1f1f1;
+  margin-bottom: 1.8rem;
+}
+.maino .top {
+  padding: 0rem 0.26rem 0.19rem;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+.maino .top .text .yu .who {
+  font: 0.26rem/0.48rem "微软雅黑";
+  margin-top: 0.13rem;
+  color: #676767;
+}
+.maino .top .text .yu .yue {
+  font: 0.2rem/0.45rem "微软雅黑";
+  color: #676767;
+  margin-left: 3rem;
+}
+.maino .top .text .addr {
+  font: 0.24rem/0.32rem "微软雅黑";
+  margin-top: 0.06rem;
+  color: #676767;
+}
+.maino .top .text .addr span {
+  display: inline-block;
+  margin-left: 5em;
+}
+.maino .top .right em {
+  display: block;
+  width: 0.19rem;
+  height: 0.26rem;
+  background: url(../images/arrowRight.jpg);
+  background-size: 0.19rem 0.26rem;
+}
+.maino .guige {
+  color: #676767;
+}
+.maino .guige .shop {
+  display: flex;
+  background: white;
+  margin-top: 0.14rem;
+}
+.maino .guige .shop img {
+  height: 1.07rem;
+  margin-top: 0.21rem;
+  margin-left: 0.35rem;
+}
+.maino .guige .shop .text {
+  color: #676767;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.25rem;
+  width: 5.87rem;
+}
+.maino .guige .shop .text .te p {
+  font: 0.26rem/0.48rem "微软雅黑";
+}
+.maino .guige .shop .text .te .name {
+  margin-top: 0.3rem;
+}
+.maino .guige .shop .text .te .gui {
+  color: #bfbfbf;
+}
+.maino .guige .shop .text .pric {
+  margin-right: 0.25rem;
+  font: 0.26rem/1.13rem "微软雅黑";
+}
+.maino .guige .num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+.maino .guige .num p {
+  font: 0.26rem/1.6rem "微软雅黑";
+  margin-left: 0.23rem;
+}
+.maino .guige .num .n {
+  display: flex;
+  margin-right: 0.23rem;
+}
+.maino .guige .num .n .down {
+  width: 0.73rem;
+  height: 0.63rem;
+  border: 1px solid #666666;
+  border-radius: 0.02rem;
+  text-align: center;
+  font: 0.3rem/0.63rem Arial;
+}
+.maino .guige .num .n input {
+  width: 1.17rem;
+  height: 0.63rem;
+  border: 1px solid #666666;
+  text-align: center;
+  margin: 0rem 0.09rem;
+}
+.maino .guige .num .n .up {
+  width: 0.73rem;
+  height: 0.63rem;
+  border: 1px solid #666666;
+  border-radius: 0.02rem;
+  text-align: center;
+  font: 0.3rem/0.63rem Arial;
+}
+.maino .guige .song {
+  padding: 0rem 0.23rem;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-top: 1px solid #f1f1f1;
+}
+.maino .guige .song p {
+  font: 0.26rem/0.97rem "微软雅黑";
+}
+.maino .youhui {
+  background: white;
+  margin-top: 0.12rem;
+  margin-bottom: 0.1rem;
+}
+.maino .youhui .juan {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0.23rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.maino .youhui .juan > p {
+  font: 0.26rem/1rem "微软雅黑";
+  color: #6a6a6a;
+}
+.maino .youhui .jifen {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0.23rem;
+  align-items: center;
+}
+.maino .youhui .jifen p {
+  font: 0.26rem/1rem "微软雅黑";
+  color: #6a6a6a;
+}
+.maino .youhui .jifen input {
+  width: 1.49rem;
+  height: 0.72rem;
+  border-radius: 0.03rem;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  font: 0.26rem/0.72rem "微软雅黑";
+ 
+}
+
+.maino .youhui .jifen .fenshu ::placeholder{
+  color:#e9e9e9;
+}
+.maino .youhui .jifen a {
+  display: inline-block;
+  width: 0.73rem;
+  height: 0.74rem;
+  border-radius: 0.03rem;
+  background: #f26b11;
+  font: 0.26rem/0.72rem "微软雅黑";
+  color: white;
+  text-align: center;
+
+}
+.maino .youhui .jifen span {
+  font: 0.26rem/0.72rem "微软雅黑";
+  color: #999999;
+}
+.maino .youhui .jifen span .red {
+  color: red;
+}
+.maino .txt {
+  background: white;
+  padding: 0rem 0.2rem;
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 0.18rem;
+}
+.maino .txt .fle {
+  display: flex;
+  justify-content: space-between;
+}
+.maino .txt .fle span {
+  font: 0.26rem/0.44rem "微软雅黑";
+  color: #686868;
+}
+.maino .txt .fle .pric {
+  color: #e2352f;
+}
+.maino .txt .mar {
+  padding-top: 0.24rem;
+}
+.maino .pay {
+  background: white;
+  padding: 0rem 0.23rem;
+}
+.maino .pay p {
+  font: 0.26rem/1.33rem "微软雅黑";
+  padding-left: 3.74rem;
+}
+.maino .pay p span {
+  color: #e2352f;
+}
+.maino .pay button {
+  width: 3.56rem;
+  height: 1rem;
+  background: #f26b11;
+  font: 0.26rem/1rem "微软雅黑";
+  border: none;
+  color: white;
+  margin-left: 1.95rem;
+}

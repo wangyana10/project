@@ -1,0 +1,235 @@
+@charset "utf-8";
+.header {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  background: #f26b11;
+  align-items: center;
+  padding: 0.4rem 0.23rem 0;
+}
+.header em {
+  width: 0.16rem;
+  height: 0.28rem;
+  display: block;
+  background: url(../../assets/images/arrowLeft2.jpg);
+  background-size: 0.16rem 0.28rem;
+}
+.header h3 {
+  font-size: 0.34rem;
+  color: white;
+}
+.header .memu .one {
+  background: white;
+}
+.main {
+  margin-bottom: 1.8rem;
+}
+.main .pian img {
+  width: 100%;
+  height: auto;
+}
+.main .ya {
+  border-bottom: 0.17rem solid #f1f1f1;
+  padding: 0 0.21rem;
+}
+.main .ya h5 {
+  font: 0.3rem/0.47rem "微软雅黑";
+  color: #343434;
+
+}
+.main .ya p {
+  font: 0.22rem/0.47rem "微软雅黑";
+  color: #878787;
+}
+.main .ya p span{
+  font: 0.3rem/0.47rem "微软雅黑";
+}
+.main .ya span {
+  color: #fe0000;
+}
+.main .topd {
+  background: white;
+  position: relative;
+  padding: 0 0.21rem;
+}
+.main .topd .chu {
+  border-bottom: 1px solid #f1f1f1;
+}
+.main .topd .chu p {
+  font: 0.26rem/1rem "微软雅黑";
+  color: #454545;
+}
+.main .topd .chu p span {
+  display: inline-block;
+  width: 0.64rem;
+  height: 0.36rem;
+  border: 1px solid #b0281a;
+  border-radius: 0.03rem;
+  text-align: center;
+  margin: 0rem 0.15rem 0rem 0.29rem;
+  font: 0.2rem/0.35rem "微软雅黑";
+  color: #b0281a;
+}
+.main .topd .chu em {
+  display: inline-block;
+  width: 0.35rem;
+  height: 0.21rem;
+  background: url(../images/arrow.jpg) no-repeat;
+  position: absolute;
+  top: 0.42rem;
+  right: 0.21rem;
+}
+.main .topd .num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main .topd .num p {
+  font: 0.26rem/1.09rem "微软雅黑";
+}
+.main .topd .num .mun {
+  width: 2.1rem;
+  height: 0.58rem;
+  border: 1px solid #333333;
+  border-radius: 0.02rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.2rem;
+}
+.main .topd .num .mun div {
+  width: 0.62rem;
+  height: 0.58rem;
+  border-right: 1px solid #333333;
+  text-align: center;
+  line-height: 0.58rem;
+}
+.main .topd .num .mun input {
+  width: 0.78rem;
+  height: 0.58rem;
+  text-align: center;
+}
+.main .topd .num .mun .tit {
+  border-left: 1px solid #333333;
+  border-right: none;
+}
+.main .topd .cad {
+  margin-top: 0.13rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .topd .cad p {
+  font: 0.26rem/0.8rem "微软雅黑";
+}
+.main .topd .cad em {
+  margin-top: 0.32rem;
+  display: inline-block;
+  width: 0.35rem;
+  height: 0.21rem;
+  background: url(../images/arrow.jpg) no-repeat;
+}
+.main .topd .day {
+  margin-bottom: 0.38rem;
+}
+.main .topd .day p {
+  font: 0.24rem/0.59rem "微软雅黑";
+}
+.main .topd .day p a {
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.59rem;
+  background: #e43a3d;
+  font: 0.28rem/0.59rem "微软雅黑";
+  color: white;
+  border-radius: 0.03rem;
+  text-align: center;
+  margin-left: 0.7rem;
+}
+.main .topd .day p .active {
+  background: #e1e1e3;
+  margin-left: 0.15rem;
+}
+.main .topd .qing {
+  border-top: 0.21rem solid #f1f1f1;
+}
+.main .topd .qing p {
+  font: 0.3rem/1rem "微软雅黑";
+  color: #454545;
+}
+.main .topd .qing img {
+  width: 100%;
+  height: auto;
+}
+.main .topd .jia h4 {
+  font: 0.3rem/0.94rem "微软雅黑";
+  border-bottom: 1px solid #eeeeee;
+}
+.main .topd .jia .on {
+  font: 0.26rem/0.55rem arial;
+  margin-top: 0.14rem;
+}
+.main .topd .jia .in {
+  font: 0.26rem/0.55rem "微软雅黑";
+  margin-bottom: 0.18rem;
+}
+.main .topd .jia .twe {
+  font: 0.26rem/0.77rem arial;
+  margin-top: 0.08rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.main .topd .jia .gong {
+  font: 0.24rem/0.91rem "微软雅黑";
+  color: #999999;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main .topd .bottom {
+  display: flex;
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  width: 7.5rem;
+  left: 50%;
+  margin-left: -3.75rem;
+}
+.main .topd .bottom .news {
+  display: inline-block;
+  height: 1.15rem;
+  width: 1.73rem;
+  text-align: center;
+  background: white;
+}
+.main .topd .bottom .news img {
+  width: 0.56rem;
+  height: 0.53rem;
+  margin-top: 0.3rem;
+}
+.main .topd .bottom .news p {
+  text-align: center;
+  font: 0.18rem/0.36rem "微软雅黑";
+  color: #868686;
+}
+.main .topd .bottom .news em {
+  display: block;
+  width: 0.24rem;
+  height: 0.24rem;
+  border-radius: 50%;
+  background: #e6383a;
+  color: white;
+  text-align: center;
+  position: absolute;
+  font: 0.19rem/0.24rem Arial;
+  left: 0.86rem;
+  top: 0.17rem;
+}
+.main .topd .bottom .three {
+  width: 2.9rem;
+  display: inline-block;
+  height: 1.15rem;
+  font: 0.3rem/1.15rem "微软雅黑";
+  text-align: center;
+  color: white;
+  background: #f26b11;
+}
+.main .topd .bottom .fix {
+  background: #e43a3d;
+}
